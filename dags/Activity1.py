@@ -27,4 +27,3 @@ convert = PythonOperator(task_id='conversion', python_callable=Activity1, dag=da
 
 start >> convert
 
-globals()['Activity1'] = dag
